@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    
+    <h1><center><em>Post a job</em></h1></center>
+    <div>
+        
+        <center><form action="/add" method="POST" >
+            <ul>
+                <li><label for="user id">User id:</label>
+                    <input type="number" name=user_id/>
+                </li>
+                <br>
+                <li>
+                    <label for="location">Location:</label>
+                    <input type="text" name=location  />
+                </li>
+                <br>
+                <li>
+                    <label for="Companyname">Company Name:</label>
+                    <input type="text" name=company_name  />
+                </li>
+                <br>
+                <li>
+                    <label for="Total number of employess">Total employess:</label>
+                    <input type="number" name=total_employee/>
+                </li>
+                <br>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" name=your_name />
+                </li>
+                <br>
+                <li>
+                    <label for="Phone number">Phone number:</label>
+                    <input type="number" name=phone_number />
+                </li>
+                <br>
+                <li>
+                    <label for="Job Title">Job Title:</label>
+                    <input type="text" name=jobtitle />
+                </li>
+                <br>
+                <li>
+                    <label for="Job Role">Job Role:</label>
+                    <input type="text" name=role/>
+                </li>
+                <br>
+                <br>
+                <li>
+                    <label for="Job Type">Job type:</label>
+                    <input type="text" name=job_type/>
+                </li>
+                <br>
+                <li>
+                    <label for="Minnimum experience">Minnimum experience:</label>
+                    <input type="Number" name=min_experience />
+                </li>
+                <br>
+                <li>
+                    <label for="Maximum experience">Maximum experience:</label>
+                    <input type="Number" name=max_experience />
+                </li>
+                <br>
+                <li>
+                    <label for="Minimum salary">Minimum salary:</label>
+                    <input type="number" name=min_salary />
+                </li>
+                <br>
+                <li>
+                    <label for="Maximum salary">Maximum salary:</label>
+                    <input type="number" name=max_salary />
+                </li>
+                
+                <li>
+                    <label for="Description">Description:</label>
+                    <textarea name=description></textarea>
+                </li>
+                <br>
+                <br>
+                <li>
+                    <label for="Skills">Skills:</label>
+                    <input type="text" name=skills />
+                </li>
+                <br>
+                <button value="add" class="btn btn-primary btn-sm" type="submit">submit</button>
+                </ul>
+            </form></center>
+    </div>
+</body>
+</html>
